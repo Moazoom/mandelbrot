@@ -1,4 +1,4 @@
-### Mandelbrot Set calculation and visualisation in python, optimised
+## Mandelbrot Set calculation and visualisation in python, optimised
 
 This is a small project to show how much speedup can be achieved using pybind11 and C++ extentions. Here are the files and what they are for:
 
@@ -8,4 +8,5 @@ This is a small project to show how much speedup can be achieved using pybind11 
 - make.bat: the compilation call for the c++file to make the python module. Used for Windows.
 
 Implementing C++ extentions for the slower functions in python results in massive speedup. On my machine, here are the times for pure python and python + c++ using pybind11:
-![cool chart](chart.png)
+
+![cool chart](image.png)
