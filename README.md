@@ -10,3 +10,7 @@ This is a small project to show how much speedup can be achieved using pybind11 
 Implementing C++ extentions for the slower functions in python results in massive speedup. On my machine, here are the times for pure python and python + c++ using pybind11:
 
 ![cool chart](image.png)
+
+And here's the actual image of the Mandelbrot set that was being calculated:
+
+![cool spiral](mandelbrot.png)
