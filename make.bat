@@ -1,0 +1,1 @@
+g++ -O3 -Wall -shared -std=c++11 -fPIC -static -static-libgcc -static-libstdc++ -IC:\Users\Moazzam\AppData\Local\Python\pythoncore-3.14-64\Include -IC:\Users\Moazzam\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pybind11\include main.cpp -o main.pyd  -LC:\Users\Moazzam\AppData\Local\Python\pythoncore-3.14-64/libs -lpython3 -lpython314
